@@ -1,0 +1,177 @@
+body {
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 150px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.6rem;
+    color: #50d890;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  h3 {
+    color: #4f98ca;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    color: #4f98ca;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top-container {
+    background-color: #effffb;
+    background-image: url(../images/moutainrange.png);
+    background-repeat: no-repeat;
+    background-position: 40%;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 400px;
+}
+
+.middle-container {
+   margin: 100px 0;
+   margin-bottom: 100px;
+}
+
+.bottom-container {
+    height: 150px;
+    background-color: #272727;
+    padding: 5rem;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 6rem auto 6rem auto;
+    text-align: left;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 500px;
+}
+
+.round_photo {
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.photo_small {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+  }
+
+.profile_pic {
+    margin-top: 5rem;
+}
+
+.image_cloud_computing {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 5%;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.image_camera {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-left: 30px;
+}
+  
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  
+
+/******* FOOTER *******/
+
+
+
+.footer-link {
+    color: #50d890;
+    margin: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-text {
+    margin-top: 5rem;
+    color: #EAF6F6;
+    font-family: 'Montserrat', sans-serif;
+}
+
